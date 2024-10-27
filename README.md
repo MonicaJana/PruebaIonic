@@ -1,5 +1,5 @@
 Este proyecto es una aplicación de ejemplo construida con [Ionic/React/Angular] , diseñada para practicar habilidades de desarrollo en interfaces y manipulación de datos.
-
+---
 Pestañas y Funcionalidad
 
 1. Pestaña GitHub
@@ -8,7 +8,7 @@ Componentes: Imagen del autor, botón de enlace a GitHub
 Interacción: Al hacer clic en el botón de GitHub, se abre el repositorio en una nueva pestaña.
 
 | ![Imagen de GitHub 1](https://github.com/user-attachments/assets/4eeb1cfe-6433-4650-aad1-34a991f9215a) | ![Imagen de GitHub 2](https://github.com/user-attachments/assets/f2ee4a35-80cc-407c-be31-b27e3392bff4) |
-
+---
 3. Pestaña Dates
 Permite al usuario ingresar dos fechas utilizando DatePickers y calcular el número de días entre ellas.
 Componentes: Dos selectores de fecha (DatePicker), botón de cálculo, y área de resultados
