@@ -6,17 +6,17 @@ Pestañas y Funcionalidad
 En esta pestaña, se muestra una foto y un enlace directo al repositorio de GitHub de la aplicación. Esta funcionalidad permite al usuario acceder al código fuente y explorar el proyecto.
 Componentes: Imagen del autor, botón de enlace a GitHub
 Interacción: Al hacer clic en el botón de GitHub, se abre el repositorio en una nueva pestaña.
-![Imagen de WhatsApp 2024-10-27 a las 13 25 09_b119d011](https://github.com/user-attachments/assets/4eeb1cfe-6433-4650-aad1-34a991f9215a)
-![Imagen de WhatsApp 2024-10-27 a las 13 25 09_bc88fdd9](https://github.com/user-attachments/assets/f2ee4a35-80cc-407c-be31-b27e3392bff4)
 
-2. Pestaña Dates
+| ![Imagen de GitHub 1](https://github.com/user-attachments/assets/4eeb1cfe-6433-4650-aad1-34a991f9215a) | ![Imagen de GitHub 2](https://github.com/user-attachments/assets/f2ee4a35-80cc-407c-be31-b27e3392bff4) |
+
+3. Pestaña Dates
 Permite al usuario ingresar dos fechas utilizando DatePickers y calcular el número de días entre ellas.
 Componentes: Dos selectores de fecha (DatePicker), botón de cálculo, y área de resultados
 Interacción: El usuario selecciona dos fechas y presiona el botón para calcular el número de días entre ellas.
 ![Imagen de WhatsApp 2024-10-27 a las 13 25 08_ddbcf5f2](https://github.com/user-attachments/assets/a2c04b5d-01bf-42f4-8581-0e65fdd24c6a)
 ![Imagen de WhatsApp 2024-10-27 a las 13 25 07_11673e82](https://github.com/user-attachments/assets/84383c99-e2c7-436b-8ffa-47ddb062e5b5)
 
-3. Pestaña Raíces cuadradas
+4. Pestaña Raíces cuadradas
 En esta pestaña, el usuario puede calcular las raíces de una ecuación cuadrática ingresando los coeficientes de la ecuación.
 Componentes: Entradas para coeficientes (a, b, c), botón de cálculo, y área de resultados
 Interacción: El usuario ingresa valores de los coeficientes y el sistema calcula y muestra las raíces de la ecuación
