@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Calculadora de  raíces
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <h6 position="stacked">Ingrese los coeficientes correspondientes a la ecuación cuadrática:</h6>
+  </ion-item>
+  <ion-item>
+    <img alt="Silhouette of mountains" src="/assets/imagenes/raiz.png" style="width: 200px; height: auto; display: block; margin: 0 auto;" />
+  </ion-item>
+  
+  <ion-item>
+    <ion-label position="floating">Coeficiente a</ion-label>
+    <ion-input type="number" [(ngModel)]="a"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Coeficiente b</ion-label>
+    <ion-input type="number" [(ngModel)]="b"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Coeficiente c</ion-label>
+    <ion-input type="number" [(ngModel)]="c"></ion-input>
+  </ion-item>
+  <div *ngIf="resultado">
+    <p>{{ resultado }}</p>
+  </div>
+  <ion-button expand="block" (click)="calcularRaices()">Calcular Raíces</ion-button>
+
+  
+</ion-content>

@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Guardar texto en un archivo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label position="stacked">Texto a guardar: </ion-label>
+    <ion-textarea [(ngModel)]="texto" placeholder="Escriba el texto a guardar"></ion-textarea>
+  </ion-item>
+<ion-button expand="full" (click)="guardarTexto()">Guardar Texto</ion-button>
+
+</ion-content>

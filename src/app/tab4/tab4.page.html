@@ -1,0 +1,166 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Biografía Mónica Jaña
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Biografía Mónica Jaña</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Quito-Ecuador</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <div class="content-container">
+        <img alt="Silhouette of mountains" src="/assets/imagenes/Monica.jpg" style="width: 200px; height: auto; margin: 0 auto;" />
+        <div class="text-content" style="font-size: 1.5rem;">
+
+          Nací en la ciudad de Quito el 18 de abril de 2000. Mi madre es de Ambato y mi padre es de Guaranda.
+          Tengo dos hermanos: mi hermano mayor tiene 28 años y mi hermana menor tiene 22 años. 
+          Siempre he vivido en el barrio la Venecia II al sur de la ciudad.
+
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Hobbies</ion-card-title>
+    </ion-card-header>
+    <ion-card color="primary">
+      <ion-card-header>
+        <ion-card-title>Caminar</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+    
+    <ion-card color="secondary">
+      <ion-card-header>
+        <ion-card-title>Nadar</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+    
+    <ion-card color="tertiary">
+      <ion-card-header>
+        <ion-card-title>Bailar</ion-card-title>
+      </ion-card-header>
+    
+    </ion-card>
+    
+    <ion-card color="success">
+      <ion-card-header>
+        <ion-card-title>Tocar el piano</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Educación</ion-card-title>
+    </ion-card-header>
+    <ion-accordion-group>
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label>Colegio</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Simón Bolívar - Especialidad Informática</div>
+      </ion-accordion>
+      <ion-accordion value="second">
+        <ion-item slot="header" color="light">
+          <ion-label>Universidad</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Escuela Politécnica Nacional - Tecnología Superior en Desarrollo de Software</div>
+      </ion-accordion>
+      <ion-accordion value="third">
+        <ion-item slot="header" color="light">
+          <ion-label>Cursos</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Oracle Certified - Java </div>
+        <div class="ion-padding" slot="content">Centro de Educación Continua EPN - English Intermediate One</div>
+
+      </ion-accordion>
+    </ion-accordion-group>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Experiencia Laboral</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-icon name="star" slot="start"></ion-icon>
+        <ion-label>Atención al cliente  </ion-label>
+        <ion-label>Agosto 2018 - Noviembre 2022</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>* Venta de articulos de papelería en Papelería Alejandra</ion-label>
+      </ion-item>
+    <ion-item>
+      <ion-icon name="star" slot="start"></ion-icon>
+      <ion-label>Desarrollador Fontend Freelance  </ion-label>
+      <ion-label>Septiembre 2024 - Presente</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>He trabajado como desarrollador frontend independiente, 
+        creando y manteniendo paginas web. Mis proyectos incluyen:</ion-label>
+    </ion-item>
+    
+      <ion-item>
+        <ion-label>* Arast para Quito Tenis y Golf Club</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>* Proyecto-Colaboradores para Quito Tenis y Golf Club</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="star" slot="start"></ion-icon>
+        <ion-label>Desarrollador Backend  </ion-label>
+        <ion-label>Julio 2024 - Presente</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mis proyectos incluyen:</ion-label>
+      </ion-item>
+      
+        <ion-item>
+          <ion-label>* CLI con Cobra y Fx para Sovos</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>* Back-Office API con Go para Sovos</ion-label>
+        </ion-item>
+      
+    
+    </ion-card-content>
+   </ion-card>
+ <ion-card>
+  <ion-card-header>
+    <ion-card-title>Redes sociales</ion-card-title>
+  </ion-card-header>
+ </ion-card>
+
+ <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+  <ion-fab-button>
+    <ion-icon name="chevron-up-circle"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button (click)="openUrl('https://web.whatsapp.com/')">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button (click)="openUrl('https://www.instagram.com/')">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button (click)="openUrl('https://www.facebook.com/')">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </ion-fab-button>
+  </ion-fab-list>
+</ion-fab>
+
+
+
+</ion-content>

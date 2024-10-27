@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Calcular días
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item class="centered-item">
+    <ion-label position="stacked" style="font-size: 20px;">Seleccione la fecha de inicio:</ion-label>
+    <ion-datetime display-format="YYYY-MM-DD" [(ngModel)]="fechaInicio" class="custom-datetime" style="margin-top: 30px;"></ion-datetime>
+  </ion-item>
+  
+  <ion-item class="centered-item">
+    <ion-label position="stacked" style="font-size: 20px;">Seleccione la fecha de fin:</ion-label>
+    <ion-datetime display-format="YYYY-MM-DD" [(ngModel)]="fechaFin" class="custom-datetime" style="margin-top: 30px;"></ion-datetime>
+  </ion-item>
+
+  <div *ngIf="diferenciaDias !== null">
+    <p>Días entre fechas: {{ diferenciaDias }}</p>
+  </div>
+  
+  <ion-button expand="block" (click)="calcularDiferencia()">Calcular Días</ion-button>
+</ion-content>
